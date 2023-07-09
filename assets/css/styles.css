@@ -91,6 +91,7 @@ nav {
     grid-template-rows: 100px 100px;
     gap: 10px;
     padding: 2rem;
+    padding-left: 4rem;
     text-align: center;
     border: black solid 3px;
     background-blend-mode: soft-light;
@@ -117,18 +118,21 @@ nav {
     background-image: url(../images/images.jpg);
     grid-column: 1;
     grid-row: 2;
+
 }
 
 .photo1 {
     background-image: url(../images/images-1.jpg);
     grid-column: 2;
     grid-row: 2;
+    align-items: center;
 }
 
 .photo2 {
     background-image: url(../images/images-2.jpg);
     grid-column: 3;
     grid-row: 3;
+    align-items: center;
 }
 
 .photo3 {
@@ -146,6 +150,7 @@ nav {
 .photo5 {
     background-image: url(../images/images-5.jpg);
     align-items: center;
+    background-repeat: no-repeat;
 }
 
 .photo6 {
@@ -217,16 +222,17 @@ nav {
     text-align: center;
     font-family: 'Cursive', Florence, cursive;
     font-size: 60px;
-    background-color: bisque;
+    color: bisque;
+    background-image: url(../images/images-4.jpg);
 }
 
 .upcoming-work h3 {
     text-align: center;
     font-family: 'Cursive', Florence, cursive;
     font-size: 35px;
-    color: bisque;
-    background-color: black;
-    background-image: url(../images/images-4.jpg);
+    color: black;
+    background-color: bisque;
+
 }
 
 .upcoming-work p {
@@ -264,6 +270,7 @@ nav {
     font-family: 'Cursive', Florence, cursive;
     color: bisque;
     font-size: 60px;
+    padding-left: 2rem;
 }
 
 .contact a {
