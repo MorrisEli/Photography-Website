@@ -1,0 +1,288 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+header {
+    background-image: url(../images/header.jpg);
+    height: 25rem;
+}
+
+header h1 {
+    padding-top: 3rem;
+    text-align: center;
+    font-size: 8rem;
+    color: bisque;
+    text-shadow: 0.3rem 0.4rem rgb(56, 54, 54);
+    font-family: 'Cursive', Florence, cursive;
+    font-weight: 200
+}
+
+header h4 {
+    margin-top: 2rem;
+    color: bisque;
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'Cursive', Florence, cursive;
+}
+
+
+body {
+    background-size: cover;
+}
+
+
+
+nav {
+    text-align: center;
+    background-color: bisque;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.nav-bar {
+    padding-top: 2rem;
+    display: inline;
+}
+
+.nav-bar a {
+    color: black;
+    padding: 5px 10px;
+    margin-right: 20px;
+    font-size: 1.8rem;
+    background-image: linear-gradient(270deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 0.2rem;
+    background-position: bottom;
+    transition: all 0.25s ease-in;
+    font-size: 1.4rem;
+    border-radius: 20px;
+    font-family: 'Cursive', Florence, cursive;
+    border-bottom: 1px solid black;
+    text-decoration: none;
+}
+
+.nav-bar a:hover {
+    background-size: 100% 100%;
+    color: bisque;
+}
+
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    font-size: 20px;
+    display: flex;
+    padding-top: 3rem;
+    background-color: rgba(177, 176, 175, 0.394);
+    background-image: url(../images/images-4.jpg);
+
+}
+
+.grid-container a {
+    color: rgb(0, 0, 0);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 100px;
+    gap: 10px;
+    padding: 2rem;
+    text-align: center;
+    border: black solid 3px;
+    background-blend-mode: soft-light;
+    background-size: 150%;
+    transition: all 0,5s;
+}
+
+.grid-container a:hover {
+    background-color: rgba(255, 228, 196, 0.32);
+}
+
+.portfolio h2 {
+    padding-top: 10rem;
+    font-size: 60px;
+    text-align: center;
+    text-shadow: 0.1rem 0.1rem bisque;
+    font-family: 'Cursive', Florence, cursive;
+    background-color: rgba(131, 122, 122, 0.499);
+}
+
+
+
+.photo {
+    background-image: url(../images/images.jpg);
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.photo1 {
+    background-image: url(../images/images-1.jpg);
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.photo2 {
+    background-image: url(../images/images-2.jpg);
+    grid-column: 3;
+    grid-row: 3;
+}
+
+.photo3 {
+    background-image: url(../images/images-3.jpg);
+    grid-column: 4;
+    grid-row: 4;
+    align-items: center;
+}
+
+.photo4 {
+    background-image: url(../images/images-6.jpg);
+    align-items: center;
+}
+
+.photo5 {
+    background-image: url(../images/images-5.jpg);
+    align-items: center;
+}
+
+.photo6 {
+    background-image: url(../images/images-7.jpg);
+    align-items: center;
+}
+
+.photo7 {
+    background-image: url(../images/images-8.jpg);
+    align-items: center;
+}
+
+.carousel {
+    width: 80%;
+    height: 10rem; /* Adjust the height as per your requirements */
+    overflow: hidden;
+
+  }
+  
+  .carousel-images {
+    display: flex;
+    width: 300%; /* Width = 100% * number of images */
+    animation: carouselAnimation 15s infinite;
+  }
+  
+  .carousel-images img {
+    width: 33.33%; /* Width = 100% / number of images */
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  @keyframes carouselAnimation {
+    0% {
+      margin-left: 0;
+    }
+    20% {
+      margin-left: 0;
+    }
+    25% {
+      margin-left: -100%;
+    }
+    45% {
+      margin-left: -100%;
+    }
+    50% {
+      margin-left: -200%;
+    }
+    70% {
+      margin-left: -200%;
+    }
+    75% {
+      margin-left: -300%;
+    }
+    95% {
+      margin-left: -300%;
+    }
+    100% {
+      margin-left: 0;
+    }
+  }
+
+  .upcoming-work {
+    border-bottom: black solid 4px;
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+  }
+  
+.upcoming-work h2 {
+    text-align: center;
+    font-family: 'Cursive', Florence, cursive;
+    font-size: 60px;
+    background-color: bisque;
+}
+
+.upcoming-work h3 {
+    text-align: center;
+    font-family: 'Cursive', Florence, cursive;
+    font-size: 35px;
+    color: bisque;
+    background-color: black;
+    background-image: url(../images/images-4.jpg);
+}
+
+.upcoming-work p {
+    font-size: 22px;
+
+}
+
+.about {
+    padding-bottom: 2rem;
+    border-bottom: black solid 4px;
+}
+
+.about h2 {
+    text-align: center;
+    font-family: 'Cursive', Florence, cursive;
+    font-size: 60px;
+    color: bisque;
+    background-image: url(../images/images-4.jpg);
+}
+
+.about p {
+    font-size: 22px;
+    text-align: center;
+}
+
+.contact {
+    background-color: black;    
+    padding-bottom: 2rem;
+    border-top: bisque solid 4px;
+    background-image: url(../images/header.jpg);
+
+}
+
+.contact h2 {
+    font-family: 'Cursive', Florence, cursive;
+    color: bisque;
+    font-size: 60px;
+}
+
+.contact a {
+    color: bisque;
+    font-size: 30px;
+    padding: 5px 10px;
+    margin-right: 20px;
+    background-image: linear-gradient(270deg, bisque 0%, bisque 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 0.2rem;
+    background-position: bottom;
+    transition: all 0.25s ease-in;
+    border-radius: 25px;
+    font-family: 'Cursive', Florence, cursive;
+    border-bottom: 5px solid black;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    background-size: 100% 100%;
+    color: black;
+}
