@@ -86,7 +86,7 @@ nav {
     display: flex;
     padding-top: 3rem;
     padding-bottom: 3rem;
-    background-color: rgba(177, 176, 175, 0.394);
+    background-color: rgba(177, 176, 175, 0.34);
     background-image: url(../images/images-4.jpg);
 
 }
@@ -107,18 +107,28 @@ nav {
     cursor: pointer;
 }
 
+h3 {
+    color: black;
+    text-shadow: 0.5px 0.5px bisque;
+}
+
 .grid-container a:hover {
     background-color: rgba(255, 228, 196, 0.32);
 }
 
-.portfolio h2 {
-
+.portfolio {
     padding-top: 10rem;
+    background-color: rgba(131, 122, 122, 0.499);
+}
+
+.portfolio h2 {
+    border-top: rgba(0, 0, 0, 0.387) solid 4px;
+    border-bottom: black solid 4px;
     font-size: 60px;
     text-align: center;
     text-shadow: 0.1rem 0.1rem bisque;
     font-family: 'Cursive', Florence, cursive;
-    background-color: rgba(131, 122, 122, 0.499);
+    background-image: url(../images/images99.jpg);
 }
 
 
@@ -242,8 +252,8 @@ nav {
     color: black;
     background-color: bisque;
     background-image: url(../images/images99.jpg);
-    border-top: black solid 5px;
-    border-bottom: black solid 5px;
+    border-top: rgba(0, 0, 0, 0.322) solid 5px;
+    border-bottom: rgba(0, 0, 0, 0.322) solid 5px;
 
 
 }
