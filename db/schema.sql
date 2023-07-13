@@ -14,3 +14,9 @@ CREATE TABLE photos (
     photo_name VARCHAR(30) NOT NULL,
     photo_price VARCHAR(30) NOT NULL
 );
+
+
+CREATE TABLE tutorials (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    tutorial_name VARCHAR(30) NOT NULL
+);

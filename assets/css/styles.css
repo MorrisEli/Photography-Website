@@ -105,6 +105,8 @@ nav {
     background-size: 150%;
     transition: all 0,5s;
     cursor: pointer;
+    font-family: 'Cursive', Florence, cursive;
+    font-size: 2rem;
 }
 
 h3 {
@@ -250,17 +252,44 @@ h3 {
     font-family: 'Cursive', Florence, cursive;
     font-size: 35px;
     color: black;
-    background-color: bisque;
-    background-image: url(../images/images99.jpg);
-    border-top: rgba(0, 0, 0, 0.322) solid 5px;
-    border-bottom: rgba(0, 0, 0, 0.322) solid 5px;
-
-
 }
 
 .upcoming-work p {
     font-size: 22px;
 
+}
+
+.project3 {
+    background-image: url(../images/prjct-img3.jpg);
+}
+
+div.project-image  {
+    background-image: url(../images/prjct-img3.jpg);
+
+}
+
+
+.tutorial {
+    background-image: url(../images/thirds.jpg);
+    grid-column: 1;
+    grid-row: 1;
+
+}
+
+.tutorial1 {
+    background-image: url(../images/triangle.jpg);
+    grid-column: 2;
+    grid-row: 2;
+}
+
+
+
+.tutorials h2 {
+    text-align: center;
+    font-family: 'Cursive', Florence, cursive;
+    font-size: 60px;
+    color: rgb(0, 0, 0);
+    background-image: url(../images/images99.jpg);
 }
 
 .about {

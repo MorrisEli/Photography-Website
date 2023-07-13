@@ -11,3 +11,7 @@ VALUES
 ('Chief', 15),
 ('Swing', 10);
 
+INSERT INTO tutorials (tutorial_name)
+VALUES
+('Rule of Thirds'),
+('Exposure Triangle');
