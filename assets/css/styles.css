@@ -259,13 +259,16 @@ h3 {
 
 }
 
-.project3 {
-    background-image: url(../images/prjct-img3.jpg);
+.project1 {
+    background-image: url(../images/prjct-img1.jpg);
 }
 
-div.project-image  {
-    background-image: url(../images/prjct-img3.jpg);
+.project2 {
+    background-image: url(../images/pjct-img.jpg);
+}
 
+.project3 {
+    background-image: url(../images/prjct-img3.jpg);
 }
 
 
@@ -282,7 +285,11 @@ div.project-image  {
     grid-row: 2;
 }
 
-
+.tutorial2 {
+    background-image: url(../images/framing2.png);
+    grid-column: 3;
+    grid-row: 3;  
+}
 
 .tutorials h2 {
     text-align: center;

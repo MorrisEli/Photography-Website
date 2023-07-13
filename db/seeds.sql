@@ -14,4 +14,11 @@ VALUES
 INSERT INTO tutorials (tutorial_name)
 VALUES
 ('Rule of Thirds'),
-('Exposure Triangle');
+('Exposure Triangle'),
+('Framing in Photography');
+
+INSERT INTO projects (project_name)
+VALUES
+('Project1'),
+('Project2'),
+('Project3');

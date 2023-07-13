@@ -20,3 +20,8 @@ CREATE TABLE tutorials (
     id INT PRIMARY KEY AUTO_INCREMENT,
     tutorial_name VARCHAR(30) NOT NULL
 );
+
+CREATE TABLE projects (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    project_name VARCHAR(30) NOT NULL
+);
