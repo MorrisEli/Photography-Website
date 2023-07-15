@@ -21,6 +21,16 @@ header h2 {
     font-family: 'Cursive', Florence, cursive;
 }
 
+h3 {
+    font-size: 4rem;
+    text-align: center;
+    color: bisque;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+    font-family: 'Cursive', Florence, cursive;
+}
+
+
 img {
     padding-top: 2rem;
     padding-bottom: 2rem;

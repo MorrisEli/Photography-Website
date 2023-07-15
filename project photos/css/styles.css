@@ -33,6 +33,15 @@ img {
 
 }
 
+h3 {
+    font-size: 4rem;
+    text-align: center;
+    color: bisque;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+    font-family: 'Cursive', Florence, cursive;
+}
+
 p {
     border-top: rgba(255, 228, 196, 0.301) solid 5px;
     border-bottom: rgba(255, 228, 196, 0.301) solid 5px;
